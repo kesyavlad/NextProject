@@ -1,6 +1,10 @@
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
 import RevenueChart from "../ui/dashboard/revenue-chart";
 import { lusitana } from "../ui/fonts";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Dashboard",
+};
 
 import { Suspense } from "react";
 import {
